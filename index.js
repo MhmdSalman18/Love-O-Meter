@@ -15,10 +15,11 @@ function lovecalc(){
     if(random<=50){
         document.getElementById("output").innerHTML="Good Relationship";
     }
-    else if(value1==="gladson"||value2==="alan jose"||value1==="rijo"||value1==="gregan"||value1==="alan jose"){
-        document.getElementById("output").innerHTML="Gay Couples";
-    }
     else{
         document.getElementById("output").innerHTML="Excellent Relationship";
     }
+    if(value1==="gladson"||value2==="alan jose"||value1==="rijo"||value1==="gregan"||value1==="alan jose"){
+        document.getElementById("output").innerHTML="Gay Couples";
+    }
+   
 }
